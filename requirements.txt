@@ -1,3 +1,0 @@
-numpy
-langchain
-transformers
