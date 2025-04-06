@@ -6,4 +6,4 @@ ________________________________________________________________________________
 
 Version 0.0.0 - This is a super, duper, simple version of what I have in my mind. At this point, there's just one PDF and a basic LangChain implementation to extract the text of the PDF, and an Ollama local hosting to process the text. This was created just to get something working, but the end result will definitely be done using JSON files. My next plan is to create a JSON extractor program, but I may resort to manual labeling for now using ChatGPT. 
 
-Version 0.0.1 - work in progress.
+Version 0.0.1 - Progress: I added JSON parsing capabilities. Regrettably, I had to use Claude. The program works, but it's really slow and it doesn't seem to be traversing the whole document. In order to move forward, I'll have to spend some time researching on various methods. 
