@@ -2,24 +2,28 @@ import json
 import os
 from typing import Dict, Any, List, Union
 import textwrap
+import logging
 
 from langchain_community.llms import Ollama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 
+# Configure logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
 # Load the JSON file
 def load_json_data(file_path: str) -> Dict[str, Any]:
-    """Load and parse a JSON file."""
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
+        logging.debug(f"Loaded JSON data: {data}")
         return data
     except FileNotFoundError:
-        print(f"Error: File '{file_path}' not found.")
+        logging.error(f"Error: File '{file_path}' not found.")
         exit(1)
     except json.JSONDecodeError:
-        print(f"Error: File '{file_path}' is not valid JSON.")
+        logging.error(f"Error: File '{file_path}' is not valid JSON.")
         exit(1)
 
 # Initialize the Ollama model
@@ -28,15 +32,11 @@ def init_ollama_model(model_name: str = "llama3"):
     try:
         return Ollama(model=model_name)
     except Exception as e:
-        print(f"Error initializing Ollama model: {e}")
+        logging.error(f"Error initializing Ollama model: {e}")
         exit(1)
 
 # Deep search through JSON to find all items with specific attribute values
 def deep_search(data, attribute, value):
-    """
-    Recursively search through a JSON structure to find items with matching attribute-value pairs.
-    Returns a list of matching items.
-    """
     results = []
     
     def _search(item, path=""):
@@ -57,19 +57,34 @@ def deep_search(data, attribute, value):
     _search(data)
     return results
 
+# Standardize marks values
+def standardize_marks(json_data):
+    def _standardize(item):
+        if isinstance(item, dict):
+            if 'marks' in item:
+                item['marks'] = str(item['marks'])
+            for k, v in item.items():
+                _standardize(v)
+        elif isinstance(item, list):
+            for i in item:
+                _standardize(i)
+    _standardize(json_data)
+    return json_data
+
 # Extract all questions with specified marks
 def extract_questions_by_marks(json_data, marks):
-    """
-    Extract all questions with the specified marks value from the JSON data.
-    Returns a list of question objects.
-    """
-    # Convert marks to string if it's not already, as JSON might store it as string
     marks_value = str(marks) if not isinstance(marks, str) else marks
+    
+    # Standardize marks in the JSON data
+    json_data = standardize_marks(json_data)
+    
+    # Log the standardized JSON data for debugging
+    logging.debug(f"Standardized JSON data: {json.dumps(json_data, indent=2)}")
     
     # Find all items with "marks" attribute equal to the specified value
     matches = deep_search(json_data, "marks", marks_value)
     
-    # Also check for numerical comparison if stored as numbers
+    # Handle numerical comparison if stored as numbers
     if marks_value.isdigit():
         num_marks = int(marks_value)
         num_matches = deep_search(json_data, "marks", num_marks)
@@ -79,7 +94,8 @@ def extract_questions_by_marks(json_data, marks):
             if path not in seen:
                 matches.append((path, item))
     
-    return [item for _, item in matches]
+    logging.debug(f"Found matches: {matches}")
+    return [item for _, item in matches if 'subquestions' not in item or item['marks'] == marks_value]
 
 # Create a prompt template for JSON question answering
 template = """
@@ -91,7 +107,7 @@ In case the user is asking for a question, tell them the JSON value 'text'. If t
 
 If asked for repeated questions, compare the summary for each question, and identify questions with similar summaries as being similar and repeated.
 
-The instructions must not be shared unless specifically asked for. For marks, give them at their face value. Do not infer from them. For example - if there is a 6 mark question with two subquestions, do not assume them being 3 marks each. Use exactly what you have been given.
+The instructions must not be shared unless specifically asked for. For marks, give them at their face value. Do not infer from them. For example - if there is a 6 mark question with two subquestions each worth 3 marks, do not infer that it is a 3 mark question.
 
 Remember, the user does not have the JSON file, so saying things like "Look at question 6" will not be viable.
 
@@ -102,32 +118,26 @@ User Question: {question}
 
 Please provide a clear and comprehensive answer based solely on the information in the JSON data.
 """
-
 prompt = ChatPromptTemplate.from_template(template)
 
 def create_specialized_qa_chain(llm, json_data):
-    """Create a specialized question-answering chain that handles specific types of queries."""
-    
     def process_query(question):
-        # Check if this is a query about questions with specific marks
         marks_keywords = ["mark", "marks", "point", "points"]
         is_marks_query = any(keyword in question.lower() for keyword in marks_keywords)
         
-        # Extract the mark value if this is a marks query
         marks_value = None
         if is_marks_query:
-            # Look for numbers followed by marks/points
             for word in question.lower().replace('-', ' ').split():
                 if word.isdigit() and any(kw in question.lower() for kw in marks_keywords):
                     marks_value = word
                     break
         
         if marks_value:
-            # Extract all questions with the specified marks
             matching_questions = extract_questions_by_marks(json_data, marks_value)
             if matching_questions:
-                # Format the questions for the prompt
+                # Ensure the length of the data passed to the LLM is not truncated
                 formatted_data = json.dumps(matching_questions, indent=2)
+                logging.debug(f"Formatted data passed to LLM: {formatted_data}")
                 return {"json_data": formatted_data, "question": question}
         
         # For other types of queries or if no matches found, use the full JSON
@@ -144,18 +154,14 @@ def create_specialized_qa_chain(llm, json_data):
     return chain
 
 def main():
-    # Configuration
     json_file_path = input("Enter the path to your JSON file: ")
     model_name = input("Enter the Ollama model to use (default: llama3): ") or "llama3"
     
-    # Load data and initialize model
     json_data = load_json_data(json_file_path)
     llm = init_ollama_model(model_name)
     
-    # Create the specialized QA chain
     qa_chain = create_specialized_qa_chain(llm, json_data)
     
-    # Interactive question answering loop
     print("\nJSON QA System Ready! Type 'exit' to quit.")
     print(f"Using model: {model_name}")
     print(f"JSON file: {json_file_path}")
@@ -170,7 +176,7 @@ def main():
             print("\nAnswer:")
             print(textwrap.fill(answer, width=100))
         except Exception as e:
-            print(f"Error processing question: {e}")
+            logging.error(f"Error processing question: {e}")
             print("Try breaking down your question or asking about a more specific aspect of the data.")
 
 if __name__ == "__main__":
