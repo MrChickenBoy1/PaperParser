@@ -8,63 +8,73 @@
         "a": {
           "extract": "Tenth May dawned bright and clear. For the past few days, I had been pleasantly besieged by dignitaries and world leaders who were coming to pay their respects before the inauguration. The inauguration would be the largest gathering ever of international leaders on South African soil. The ceremonies took place in the lovely sandstone amphitheatre formed by the Union buildings in Pretoria. For decades this had been the seat of white supremacy, and now it was the site of rainbow gathering of different colours and nations for the installation of South Africa's first democratic nonracial government.",
           "summary": "Nelson Mandela - Long Walk to Freedom: inauguration, white supremacy, rainbow gathering",
+          "chapter": "Nelson Mandela: Long Walk to Freedom",
           "subquestions": [
             {
               "text": "What do you infer from the following statement? 'The inauguration would be the largest gathering ever of international leaders on South African Soil.'",
               "type": "inference",
               "summary": "inference, inauguration, largest gathering, international leaders, South African soil",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Nelson Mandela: Long Walk to Freedom"
             },
             {
               "text": "Explain in about 40 words the effective shift from white supremacy to a rainbow gathering.",
               "type": "explanation",
               "word_limit": 40,
               "summary": "explain, shift, white supremacy, rainbow gathering",
-              "marks": 2
+              "marks": 2,
+              "chapter": "Nelson Mandela: Long Walk to Freedom"
             },
             {
               "text": "Which phrase would correctly substitute 'pleasantly besieged' in the given sentence from that extract?",
               "type": "substitution",
               "summary": "phrase, substitute, pleasantly besieged",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Nelson Mandela: Long Walk to Freedom"
             },
             {
               "text": "State true or false with reference to the given extract. In the past the 'amphitheatre' had been a seat for theatrical performances.",
               "type": "true_false",
               "summary": "true or false, amphitheatre, seat, theatrical performances",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Nelson Mandela: Long Walk to Freedom"
             }
           ]
         },
         "b": {
-          "extract": "Anyone could ramble on and leave big spaces between the words, but the trick was to come up with convincing arguments to prove the necessity of talking. I thought and suddenly I had an idea. I wrote the three pages, Mr. Keesing had assigned me and was satisfied. I argued that talking is a students' trait and that I would do my best to keep it under control, but that I would never be able to cure myself of the habit since my mother talked as much as I did if not more, and that there's not much you can do about inherited traits.",
+          "extract": "Anyone could ramble on and leave big spaces between the words, but the trick was to come up with convincing arguments to prove the necessity of talking. I thought and suddenly LOCKED I had an idea. I wrote the three pages, Mr. Keesing had assigned me and was satisfied. I argued that talking is a students' trait and that I would do my best to keep it under control, but that I would never be able to cure myself of the habit since my mother talked as much as I did if not more, and that there's not much you can do about inherited traits.",
           "summary": "From the Diary of Annie Frank: talking, convincing arguments, inherited traits",
+          "chapter": "From the Diary of Anne Frank",
           "subquestions": [
             {
               "text": "State any one inference about Anne from the given context. 'Anyone could ramble on and leave big spaces between the words, but the trick was to come up with convincing arguments to prove the necessity of talking.'",
               "type": "inference",
               "summary": "inference, Anne, ramble on, convincing arguments, necessity of talking",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "In about 40 words, elaborate on the justification Anne gives for her talkative nature.",
               "type": "elaboration",
               "word_limit": 40,
               "summary": "elaborate, justification, talkative nature",
-              "marks": 2
+              "marks": 2,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "Which one of the following best describes the tone of the given extract? (A) derogatory (B) persuasive (C) nostalgic (D) cautionary",
               "type": "multiple_choice",
               "options": ["derogatory", "persuasive", "nostalgic", "cautionary"],
               "summary": "tone, extract, derogatory, persuasive, nostalgic, cautionary",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "Which phrase would correctly substitute 'ramble on' in the given sentence from the extract?",
               "type": "substitution",
               "summary": "phrase, substitute, ramble on",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             }
           ]
         }
@@ -78,63 +88,73 @@
         "a": {
           "extract": "He stalks in his vivid stripes The few steps of his cage, On pads of velvet quiet, In his quiet rage",
           "summary": "Tiger poem: stalks, cage, quiet rage",
+          "chapter": "A Tiger in the Zoo",
           "subquestions": [
             {
               "text": "Explain the contrast created by the words, 'stalks' and 'few steps of his cage'.",
               "type": "explanation",
               "summary": "contrast, stalks, few steps, cage",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "Which of the following best describes the tiger's feelings in the context? (A) anger (B) conflicted (C) pessimism (D) apprehension",
               "type": "multiple_choice",
               "options": ["anger", "conflicted", "pessimism", "apprehension"],
               "summary": "tiger's feelings, anger, conflicted, pessimism, apprehension",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "Comment in about 40 words on the poet's use of imagery in the above extract.",
               "type": "commentary",
               "word_limit": 40,
               "summary": "imagery, extract",
-              "marks": 2
+              "marks": 2,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "Which word in the stanza means the same as 'clear and bright'?",
               "type": "vocabulary",
               "summary": "word, stanza, clear and bright",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             }
           ]
         },
         "b": {
           "extract": "And no one buys a ball back, Money is external He is learning, well behind his desperate eyes The epistemology of loss, how to standup.",
           "summary": "The Ball Poem: loss, desperate eyes",
+          "chapter": "The Ball Poem",
           "subquestions": [
             {
               "text": "When the poet says that 'no one buys a ball back', what does he refer to in the context of the poem?",
               "type": "interpretation",
               "summary": "no one buys a ball back, context",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Ball Poem"
             },
             {
               "text": "Complete the sentence with an appropriate option: The lines from the poem tell us that the boy is experiencing (A) distress (B) terror (C) realisation (D) elation",
               "type": "completion",
               "options": ["distress", "terror", "realisation", "elation"],
               "summary": "boy is experiencing, distress, terror, realisation, elation",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Ball Poem"
             },
             {
               "text": "What is the significance of the term 'desperate' used to describe the boy's eyes in the poem, and how does it contribute to the overall mood and tone of the poem?",
               "type": "analysis",
               "summary": "significance, desperate, boy's eyes, mood, tone",
-              "marks": 2
+              "marks": 2,
+              "chapter": "The Ball Poem"
             },
             {
               "text": "Identify and discuss the poet's use of metaphor in the poem 'The Ball Poem'.",
               "type": "discussion",
               "summary": "metaphor, The Ball Poem",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Ball Poem"
             }
           ]
         }
@@ -148,27 +168,32 @@
         {
           "text": "Explain the irony in the chapter, 'A Letter to God'.",
           "summary": "irony, A Letter to God",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Letter to God"
         },
         {
           "text": "'During our childhood in Goa, the baker used to be our friend, companion and guide.' What does this statement imply in relation to the character of the baker? (Glimpses of India)",
           "summary": "baker, friend, companion and guide, Glimpses of India",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Glimpses of India"
         },
         {
           "text": "It is our attitude towards a situation that makes it positive or negative. Do you agree with it? Express your views with reference to the poem, 'Dust of Snow'.",
           "summary": "attitude, positive or negative, Dust of Snow",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Dust of Snow"
         },
         {
           "text": "Belinda and other animals have been described as brave. But on seeing the pirate they behaved in a cowardly way. How did they react? (A Tale of Custard, The Dragon)",
           "summary": "Belinda, animals, brave, cowardly, pirate, A Tale of Custard, The Dragon",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Tale of Custard the Dragon"
         },
         {
           "text": "Flying is a natural act in birds. Then why was the young seagull 'exhausted by the strange exercise'? Justify the given statement with reference to baby seagull's fear. (His First Flight)",
           "summary": "flying, natural act, young seagull, exhausted, strange exercise, fear, His First Flight",
-          "marks": 3
+          "marks": 3,
+          "chapter": "His First Flight"
         }
       ]
     },
@@ -180,17 +205,20 @@
         {
           "text": "Do you think Bholi could have confidently refused to marry Bishamber if she wasn't educated? Give reasons. (Bholi)",
           "summary": "Bholi, refused to marry, Bishamber, educated",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Bholi"
         },
         {
           "text": "Who was Henry? What role did he play in Ausable's plan? (The Midnight Visitor)",
           "summary": "Henry, role, Ausable's plan, The Midnight Visitor",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Midnight Visitor"
         },
         {
           "text": "How did Think - Tank interpret the following nursery rhyme? 'How does your garden grow with cockle shells and silver bells?' (The Book that Saved the Earth)",
           "summary": "Think - Tank, interpret, nursery rhyme, garden grow, cockle shells, silver bells, The Book that Saved the Earth",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Book That Saved the Earth"
         }
       ]
     },
@@ -202,12 +230,14 @@
         {
           "text": "Valli was sensitive, but at the same time, she was fearless and quite determined. Think of another character from your text book, who displayed similar character traits. Compare and contrast the lives of Valli and the other character, that you have chosen from the text of Two Stories about Flying. You may begin this way. The characters who are fearless and determined from two texts are Valli and (Reference: Madam Rides a Bus & Two Stories about Flying)",
           "summary": "Valli, sensitive, fearless, determined, compare and contrast, Two Stories about Flying, Madam Rides a Bus",
-          "marks": 6
+          "marks": 6,
+          "chapter": "Madam Rides the Bus"
         },
         {
           "text": "Based on your understanding of the Play, 'The Proposal', what do you think of relationships? Prepare a speech draft on relationships based on Natalya's and Anne Frank's characters. You may begin this way. Good morning everyone. Relationships are the bond between two people based on mutual likes, understanding, need or love. I'd like to discuss relationships as portrayed in the two texts You may end this way To conclude, I'd like to say that Thank you, (Reference: The Proposal & from the Diary of Anne Frank)",
           "summary": "relationships, The Proposal, Natalya, Anne Frank, speech draft",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Proposal"
         }
       ]
     },
@@ -219,12 +249,14 @@
         {
           "text": "Griffin's brilliance as a man of science fades before his darker traits. Give reasons from the text to support your answer. (Footprints Without Feet)",
           "summary": "Griffin, brilliance, man of science, darker traits, Footprints Without Feet",
-          "marks": 6
+          "marks": 6,
+          "chapter": "Footprints Without Feet"
         },
         {
           "text": "Hari Singh says - 'He knew it but neither his lips nor his eyes showed anything.' Anil successfully addressed the situation by not addressing it all. Elaborate based on your reading of 'The Thief's Story'.",
           "summary": "Hari Singh, Anil, situation, The Thief's Story",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Thief's Story"
         }
       ]
     }
@@ -238,78 +270,90 @@
         "a": {
           "extract": "Let me put this more clearly, since no one will believe that a thirteen-year old girl is completely alone in this world. And I'm not. I have loving parents and a sixteen years old sister, and there are almost thirty people I can call friends. I have a family, loving aunts and a good house. No, on the surface I seem to have everything, except my one true friend. All I think about when I am with friends is having a good time. I can't bring myself to talk about anything, but ordinary everyday things.",
           "summary": "Anne Frank: alone, true friend, everyday things",
+          "chapter": "From the Diary of Anne Frank",
           "subquestions": [
             {
               "text": "On the surface, it appears that Anne the thirteen year old girl",
               "type": "completion",
               "summary": "Anne, thirteen year old, appears",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "How can we infer that the speaker felt alone in the world? (a) She had a family of many people. (b) She had loving parents. (c) She had thirty friends. (d) She craves for a true friend.",
               "type": "multiple_choice",
               "options": ["She had a family of many people", "She had loving parents", "She had thirty friends", "She craves for a true friend"],
               "summary": "infer, felt alone, family, loving parents, thirty friends, true friend",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "Anne and her friends talked about (a) their problematic parents (b) their financial problems (c) common everyday things (d) the commuting problems",
               "type": "multiple_choice",
               "options": ["their problematic parents", "their financial problems", "common everyday things", "the commuting problems"],
               "summary": "Anne, friends, talked about, everyday things",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "Complete the analogy by selecting the suitable word from the text: alone : friends :: nothing :",
               "type": "analogy",
               "summary": "analogy, alone, friends, nothing",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             },
             {
               "text": "Select the option that correctly captures the usage of the idiom 'bring myself' from the extract: (a) to do something willingly (b) to do something unwillingly (c) a charitable act (d) an involuntary act",
               "type": "multiple_choice",
               "options": ["to do something willingly", "to do something unwillingly", "a charitable act", "an involuntary act"],
               "summary": "idiom, bring myself, willingly, unwillingly",
-              "marks": 1
+              "marks": 1,
+              "chapter": "From the Diary of Anne Frank"
             }
           ]
         },
         "b": {
           "extract": "Mrs. Hall almost fell down the stairs in hysterics. She was convinced that the room was haunted by spirits and that the stranger had somehow caused these to enter into her furniture.",
           "summary": "Mrs. Hall: hysterics, haunted, spirits",
+          "chapter": "Footprints Without Feet",
           "subquestions": [
             {
               "text": "Mrs. Hall tripped because (a) the floor was oily. (b) she was standing on a chair. (c) she was in a state of panic. (d) the door was slammed.",
               "type": "multiple_choice",
               "options": ["the floor was oily", "she was standing on a chair", "she was in a state of panic", "the door was slammed"],
               "summary": "Mrs. Hall, tripped, panic",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Footprints Without Feet"
             },
             {
               "text": "Mrs. Hall suspected everything in the room was put under a spell of witchcraft by",
               "type": "completion",
               "summary": "Mrs. Hall, suspected, witchcraft",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Footprints Without Feet"
             },
             {
               "text": "Fill in the blank with one word only: Mrs. Hall was afraid that spirits had entered",
               "type": "fill_in_the_blank",
               "summary": "Mrs. Hall, spirits, entered",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Footprints Without Feet"
             },
             {
               "text": "According to the extract, the feeling of Mrs. Hall can be best described as (1) stunned (2) happy (3) awestruck (4) nervous (5) outraged (6) agitated Select the correct option: (a) (2) and (4) (b) (3) and (6) (c) (5) and (6) (d) (1) and (6)",
               "type": "multiple_choice",
               "options": ["(2) and (4)", "(3) and (6)", "(5) and (6)", "(1) and (6)"],
               "summary": "feeling, Mrs. Hall, stunned, happy, awestruck, nervous, outraged, agitated",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Footprints Without Feet"
             },
             {
               "text": "'Spirits' in the above lines means the same as (a) ghosts (b) conscience (c) ego (d) attitude",
               "type": "multiple_choice",
               "options": ["ghosts", "conscience", "ego", "attitude"],
               "summary": "spirits, ghosts, conscience",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Footprints Without Feet"
             }
           ]
         }
@@ -323,77 +367,89 @@
         "a": {
           "extract": "Though to distinguish beasts of prey A novice might nonplus, The crocodiles you always may Tell from the Hyena thus: Hyenas come with merry smiles; But if they weep they're crocodiles.",
           "summary": "Beasts of prey: crocodiles, hyenas, smiles, weep",
+          "chapter": "How to Tell Wild Animals",
           "subquestions": [
             {
               "text": "Select the appropriate option to complete the sentence, according to the extract: Crocodiles can be identified by their (a) tears (b) attitude (c) smiles (d) attacks",
               "type": "multiple_choice",
               "options": ["tears", "attitude", "smiles", "attacks"],
               "summary": "crocodiles, identified, tears",
-              "marks": 1
+              "marks": 1,
+              "chapter": "How to Tell Wild Animals"
             },
             {
               "text": "State whether the following statement is True or False: Hyenas are famous for weeping.",
               "type": "true_false",
               "summary": "hyenas, weeping, true or false",
-              "marks": 1
+              "marks": 1,
+              "chapter": "How to Tell Wild Animals"
             },
             {
               "text": "'Novice' in line 2 means the same as: (a) learner (b) beast (c) tender foot (d) beginner",
               "type": "multiple_choice",
               "options": ["learner", "beast", "tender foot", "beginner"],
               "summary": "novice, learner, beginner",
-              "marks": 1
+              "marks": 1,
+              "chapter": "How to Tell Wild Animals"
             },
             {
               "text": "In this extract the poet has presented two different behavioural traits of animals. They are",
               "type": "identification",
               "summary": "behavioural traits, animals",
-              "marks": 1
+              "marks": 1,
+              "chapter": "How to Tell Wild Animals"
             },
             {
               "text": "The poet uses 'A novice might nonplus' instead of the novice might get confused. How does this usage impact the poem? (a) adds an incorrect option. (b) it is associated with beasts. (c) it rhymes and adds humour. (d) it simplifies the meaning.",
               "type": "multiple_choice",
               "options": ["adds an incorrect option", "it is associated with beasts", "it rhymes and adds humour", "it simplifies the meaning"],
               "summary": "novice, nonplus, rhymes, humour",
-              "marks": 1
+              "marks": 1,
+              "chapter": "How to Tell Wild Animals"
             }
           ]
         },
         "b": {
           "extract": "He stalks in his vivid stripes The few steps of his cage, On pads of velvet quiet, In his quiet rage He should be lurking in shadow Sliding through long grass Near the water hole Where plump deer pass.",
           "summary": "Tiger poem: stalks, cage, lurking",
+          "chapter": "A Tiger in the Zoo",
           "subquestions": [
             {
               "text": "Complete the sentence appropriately. The vivid stripes refer to the",
               "type": "completion",
               "summary": "vivid stripes, refer",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "Which word from the extract is the opposite of 'loud'?",
               "type": "vocabulary",
               "summary": "word, opposite, loud",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "The use of the phrase 'pads of velvet' means (a) neck (b) tail (c) skin (d) paws",
               "type": "multiple_choice",
               "options": ["neck", "tail", "skin", "paws"],
               "summary": "pads of velvet, paws",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "State whether the following statement is True or False: The confinement of the cramped space of the cage has restricted the tiger's steps.",
               "type": "true_false",
               "summary": "confinement, cage, tiger's steps, true or false",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             },
             {
               "text": "The tiger was lurking in shadow (a) to catch its prey (b) as the cage was dark (c) as the velvet was quiet (d) as he was in a rage",
               "type": "multiple_choice",
               "options": ["to catch its prey", "as the cage was dark", "as the velvet was quiet", "as he was in a rage"],
               "summary": "tiger, lurking, shadow, prey",
-              "marks": 1
+              "marks": 1,
+              "chapter": "A Tiger in the Zoo"
             }
           ]
         }
@@ -407,27 +463,32 @@
         {
           "text": "What did Pranjol and Rajvir do during the journey? Why?",
           "summary": "Pranjol, Rajvir, journey",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Glimpses of India"
         },
         {
           "text": "Who read the letter sent by Lencho? What did he do then?",
           "summary": "Lencho, letter, read",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Letter to God"
         },
         {
           "text": "Where is Coorg located? Write any two characteristics of the people of Coorg?",
           "summary": "Coorg, location, characteristics",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Glimpses of India"
         },
         {
           "text": "How does the poem 'The Tale of Custard The Dragon' differ from the traditional ballad?",
           "summary": "The Tale of Custard The Dragon, differ, traditional ballad",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Tale of Custard the Dragon"
         },
         {
           "text": "What does the Buddha say about the world?",
           "summary": "Buddha, world",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Sermon at Benares"
         }
       ]
     },
@@ -439,17 +500,20 @@
         {
           "text": "Why does Anil not hand over Hari Singh to the police?",
           "summary": "Anil, Hari Singh, police",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Thief's Story"
         },
         {
           "text": "What opinion did Mr. Weiherer, Ebright's Social Science teacher have about him?",
           "summary": "Mr. Weiherer, Ebright, opinion",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Making of a Scientist"
         },
         {
           "text": "What was Mr. Herriot's strict advice? Did Mrs. Pumphrey agree to his advice?",
           "summary": "Mr. Herriot, advice, Mrs. Pumphrey",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Triumph of Surgery"
         }
       ]
     },
@@ -461,12 +525,14 @@
         {
           "text": "Whenever we want to achieve something, difficulties always come in our way. What did Valli have to do to go and ride in a bus?",
           "summary": "Valli, difficulties, ride in a bus",
-          "marks": 6
+          "marks": 6,
+          "chapter": "Madam Rides the Bus"
         },
         {
           "text": "Through the story of Kisa Gotami, what did the Buddha try to preach to the common man?",
           "summary": "Kisa Gotami, Buddha, preach",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Sermon at Benares"
         }
       ]
     },
@@ -478,12 +544,14 @@
         {
           "text": "Education is always a great asset in the life of a woman. How did Bholi, an educated girl, face the challenge posed by Bishamber's greed?",
           "summary": "Bholi, education, Bishamber's greed",
-          "marks": 6
+          "marks": 6,
+          "chapter": "Bholi"
         },
         {
           "text": "Those who are satisfied with what they have are happy in life. Those who aspire more than what they can afford ruin their life. Matilda was one such person. If she were content with her life she would have led a happy life. Elaborate on the basis of the chapter 'The Necklace.'",
           "summary": "Matilda, satisfied, aspire, ruin, The Necklace",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Necklace"
         }
       ]
     }
@@ -497,37 +565,44 @@
         {
           "text": "How, according to Buddha, can one obtain peace of mind? (The Sermon at Benares)",
           "summary": "Buddha, peace of mind, The Sermon at Benares",
-          "marks": 2
+          "marks": 2,
+          "chapter": "The Sermon at Benares"
         },
         {
           "text": "'Don't bite your nails Amanda! Don't hunch your shoulders Amanda!' What does this reflect about Amanda's mother and Amanda?",
           "summary": "Amanda, mother, reflect",
-          "marks": 2
+          "marks": 2,
+          "chapter": "Amanda"
         },
         {
           "text": "Walt Whitman in 'Animals' shows his preference for living with animals. Justify.",
           "summary": "Walt Whitman, Animals, preference, living with animals",
-          "marks": 2
+          "marks": 2,
+          "chapter": "Animals"
         },
         {
           "text": "Write a brief character sketch of Lomov. (The Proposal)",
           "summary": "character sketch, Lomov, The Proposal",
-          "marks": 2
+          "marks": 2,
+          "chapter": "The Proposal"
         },
         {
           "text": "What are the essential qualities for becoming a scientist, according to Ebright's teacher? (The Making of a Scientist)",
           "summary": "essential qualities, scientist, Ebright's teacher, The Making of a Scientist",
-          "marks": 2
+          "marks": 2,
+          "chapter": "The Making of a Scientist"
         },
         {
           "text": "Describe the feelings of the young lawyer when he came to know the reality of the hack driver.",
           "summary": "feelings, young lawyer, hack driver",
-          "marks": 2
+          "marks": 2,
+          "chapter": "The Hack Driver"
         },
         {
           "text": "What attracts visitors to Coorg? (Glimpses of India)",
           "summary": "attracts visitors, Coorg, Glimpses of India",
-          "marks": 2
+          "marks": 2,
+          "chapter": "Glimpses of India"
         }
       ]
     },
@@ -539,17 +614,20 @@
         {
           "text": "Matilda realised that one little act of negligence can lead to total ruin. What do you learn from this and how would you move on in life? (The Necklace)",
           "summary": "Matilda, negligence, total ruin, learn, move on, The Necklace",
-          "marks": 4
+          "marks": 4,
+          "chapter": "The Necklace"
         },
         {
           "text": "Imagine you are Bholi and you have been invited to give a speech on the importance of girl education. Write the speech on 'Girl Education and Empowerment'.",
           "summary": "Bholi, speech, girl education, empowerment",
-          "marks": 4
+          "marks": 4,
+          "chapter": "Bholi"
         },
         {
           "text": "Valli was a mature girl and ahead of her age. Justify the statement with evidence from the text. (Madam Rides the Bus)",
           "summary": "Valli, mature, ahead of her age, justify, evidence, Madam Rides the Bus",
-          "marks": 4
+          "marks": 4,
+          "chapter": "Madam Rides the Bus"
         }
       ]
     }
@@ -563,63 +641,73 @@
         "a": {
           "extract": "The question he tried to answer was simple: What is the purpose of the twelve tiny gold spots on a monarch pupa? \"Everyone assumed the spots were just ornamental,\" Ebright said. \"But Dr Urquhart didn't believe it.\" To find the answer, Ebright and another excellent science student first had to build a device that showed that the spots were producing a hormone necessary for the butterfly's full development. This project won Ebright first place in the county fair and entry into the International Science and Engineering Fair. There he won third place for zoology. He also got a chance to work during the summer at the entomology laboratory of the Walter Reed Army Institute of Research. (The Making of a Scientist)",
           "summary": "The Making of a Scientist: Ebright, Dr Urquhart, monarch pupa, gold spots, hormone, butterfly development",
+          "chapter": "The Making of a Scientist",
           "subquestions": [
             {
               "text": "State any one inference about Dr Urquhart from the given context: Everyone assumed the spots were just ornamental,\" Ebright said. \"But Dr Urquhart didn't believe it.\"",
               "type": "inference",
               "summary": "inference, Dr Urquhart, ornamental spots",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Making of a Scientist"
             },
             {
               "text": "State TRUE or FALSE. None of the terms (a) -(d) below, can be applied to the question - What is the purpose of the twelve tiny gold spots on a monarch pupa? (a) A hypothesis - a proposed explanation for a phenomenon (b) An assumption - something that is taken for granted or assumed to be true without proof (c) A premise - a proposition that forms the basis of an argument (d) A theory - a well-substantiated explanation for a natural phenomenon",
               "type": "true_false",
               "summary": "true or false, hypothesis, assumption, premise, theory",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Making of a Scientist"
             },
             {
               "text": "Ebright's approach towards finding the purpose of the gold spots on a monarch pupa was highly effective. Elaborate in about 40 words, with reference to the extract.",
               "type": "elaboration",
               "word_limit": 40,
               "summary": "Ebright, approach, gold spots, monarch pupa, effective",
-              "marks": 2
+              "marks": 2,
+              "chapter": "The Making of a Scientist"
             },
             {
               "text": "Which phrase would correctly substitute 'a chance', in the given sentence from the extract. He also got a chance to work during the summer at the entomology laboratory of the Walter Reed Army Institute of Research.",
               "type": "substitution",
               "summary": "phrase, substitute, a chance",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Making of a Scientist"
             }
           ]
         },
         "b": {
           "extract": "LOMOV : It's cold... I'm trembling all over, just as if I'd got an examination before me. The great thing is , I must have my mind made up. If I give myself time to think, to hesitate, to talk a lot, to look for an ideal, or for real love, then I'll never get married. Brr...It's cold! Natalya Stepanovna is an excellent housekeeper, not bad-looking, well-educated. What more do I want? But I'm getting a noise in my ears from excitement. (Drinks) And it's impossible for me not to marry. In the first place, I'm already 35 - a critical age, so to speak. In the second place, I ought to lead a quiet and regular life. I suffer from palpitations, I'm excitable and always getting awfully upset; at this very moment my lips are trembling, and there's a twitch in my right eyebrow. (The Proposal)",
           "summary": "The Proposal: Lomov, marriage, Natalya Stepanovna, excitement, critical age",
+          "chapter": "The Proposal",
           "subquestions": [
             {
               "text": "Which of the following is NOT a reason why Lomov thinks he must marry? A. He is already 35 years old. B. He suffers from palpitations. C. He is excitable and easily upset. D. He is in love with Natalya.",
               "type": "multiple_choice",
               "options": ["He is already 35 years old.", "He suffers from palpitations.", "He is excitable and easily upset.", "He is in love with Natalya."],
               "summary": "Lomov, reason, marry, not",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Proposal"
             },
             {
               "text": "Why is it fair to say that Lomov's tone, when he says \"What more do I want?\", is uncertain and questioning? Answer in about 40 words.",
               "type": "explanation",
               "word_limit": 40,
               "summary": "Lomov, tone, uncertain, questioning",
-              "marks": 2
+              "marks": 2,
+              "chapter": "The Proposal"
             },
             {
               "text": "Read the following descriptions (a)-(c) and identify which one correctly corresponds to the extract. (a) A debate is a formal discussion on a particular topic, usually with two or more people presenting different viewpoints and arguments. (b) A soliloquy is a speech given by a character alone on stage, which reveals their innermost thoughts and feelings to the audience. (c) An aside is a brief comment or remark made by a character directly to the audience, which is not intended to be heard by other characters on stage.",
               "type": "identification",
               "summary": "descriptions, debate, soliloquy, aside",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Proposal"
             },
             {
               "text": "If an actor were to enact this extract, what would he be required to focus on, while modulating his voice?",
               "type": "interpretation",
               "summary": "actor, enact, modulating voice",
-              "marks": 1
+              "marks": 1,
+              "chapter": "The Proposal"
             }
           ]
         }
@@ -633,63 +721,73 @@
         "a": {
           "extract": "But if it had to perish twice, I think I know enough of hate To say that for destruction ice Is also great And would suffice. (Fire and Ice)",
           "summary": "Fire and Ice: perish, hate, destruction, ice",
+          "chapter": "Fire and Ice",
           "subquestions": [
             {
               "text": "Fill the blank with one word. When the speaker says that ice could also bring about the end of the world, he refers to , as the means for destruction.",
               "type": "fill_in_the_blank",
               "summary": "ice, end of the world, means for destruction",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fire and Ice"
             },
             {
               "text": "What does the speaker's alignment with those who favour ice, suggest?",
               "type": "interpretation",
               "summary": "speaker, alignment, favour ice",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fire and Ice"
             },
             {
               "text": "Which of the following best describes the speaker's attitude towards destruction caused by ice? A. Indifferent B. Fearful C. Dismissive D. Respectful",
               "type": "multiple_choice",
               "options": ["Indifferent", "Fearful", "Dismissive", "Respectful"],
               "summary": "speaker's attitude, destruction, ice",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fire and Ice"
             },
             {
               "text": "Comment on the poet's use of language in these lines.",
               "type": "commentary",
               "summary": "poet's use of language",
-              "marks": 2
+              "marks": 2,
+              "chapter": "Fire and Ice"
             }
           ]
         },
         "b": {
           "extract": "The fog comes on little cat feet. It sits looking over harbour and city on silent haunches and then moves on. (Fog)",
           "summary": "Fog: fog, cat feet, harbour, city",
+          "chapter": "Fog",
           "subquestions": [
             {
               "text": "In what way does the language used in this poem challenge traditional ideas of what poetry should be?",
               "type": "interpretation",
               "summary": "language, challenge, traditional poetry",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fog"
             },
             {
               "text": "What is the significance of the use of the word \"little\" to describe the fog in the poem and how does this word choice contribute to the overall mood and tone of the poem? Answer in about 40 words.",
               "type": "analysis",
               "word_limit": 40,
               "summary": "significance, little, fog, mood, tone",
-              "marks": 2
+              "marks": 2,
+              "chapter": "Fog"
             },
             {
               "text": "Complete the sentence with the appropriate option. The lines from the poem tell us that the city is A. hilly B. coastal C. industrial D. under-developed",
               "type": "completion",
               "options": ["hilly", "coastal", "industrial", "under-developed"],
               "summary": "city, hilly, coastal, industrial, under-developed",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fog"
             },
             {
               "text": "Identify the type of imagery used in the lines of the poem.",
               "type": "identification",
               "summary": "imagery, poem",
-              "marks": 1
+              "marks": 1,
+              "chapter": "Fog"
             }
           ]
         }
@@ -703,27 +801,32 @@
         {
           "text": "Justify the opinion that the traditional baker and his bread play a significant role in the cultural and social fabric of Goan society. (Glimpses of India-I)",
           "summary": "traditional baker, bread, Goan society, cultural, social",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Glimpses of India"
         },
         {
           "text": "How does Leslie Norris use vivid imagery and metaphorical language in A Tiger in the Zoo, to effectively depict the confinement and oppression, experienced by the captive tiger.",
           "summary": "Leslie Norris, imagery, metaphorical language, A Tiger in the Zoo, confinement, oppression",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Tiger in the Zoo"
         },
         {
           "text": "Explain how the description of the devastation caused by the hailstorm reflects the sadness within Lencho, in A Letter to God? Refer to the given lines, from the text - Not a leaf remained on the trees. The corn was totally destroyed. The flowers were gone from the plants. Lencho's soul was filled with sadness.",
           "summary": "devastation, hailstorm, Lencho, sadness, A Letter to God",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Letter to God"
         },
         {
           "text": "Kitty was a trusted friend to Anne. Elaborate. (From the Diary of Anne Frank)",
           "summary": "Kitty, trusted friend, Anne, From the Diary of Anne Frank",
-          "marks": 3
+          "marks": 3,
+          "chapter": "From the Diary of Anne Frank"
         },
         {
           "text": "How does Ogden Nash's The Tale of Custard the Dragon, challenge the notion that individuals should conform to societal expectations?",
           "summary": "Ogden Nash, The Tale of Custard the Dragon, challenge, societal expectations",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Tale of Custard the Dragon"
         }
       ]
     },
@@ -735,17 +838,20 @@
         {
           "text": "The story, A Triumph of Surgery is a powerful example of the importance of saying \"no\". Explain.",
           "summary": "A Triumph of Surgery, importance, saying no",
-          "marks": 3
+          "marks": 3,
+          "chapter": "A Triumph of Surgery"
         },
         {
           "text": "How does education play a transformative role in Bholi's life? (Bholi)",
           "summary": "education, transformative role, Bholi",
-          "marks": 3
+          "marks": 3,
+          "chapter": "Bholi"
         },
         {
           "text": "The various elements of Robert Arthur's writing style work together to create a sense of tension, uncertainty, and suspense, well-suited to the mystery and suspense genre of the story, The Midnight Visitor. Comment, with reference to any one element.",
           "summary": "Robert Arthur, writing style, tension, uncertainty, suspense, The Midnight Visitor",
-          "marks": 3
+          "marks": 3,
+          "chapter": "The Midnight Visitor"
         }
       ]
     },
@@ -755,14 +861,16 @@
       "marks": 6,
       "options": [
         {
-          "text": "You have been asked to present an evaluation of the approaches of the mothers of both, the baby seagull and Amanda, towards helping their children. Write this presentation draft including your insights, in about 120 words, comparing the approaches of both parents. You may begin this way: One acknowledges that both parents, Amanda's mother and the baby seagull's mother both.... Whowever, ... (Reference -Amanda! & His First Flight)",
+          "text": "You have been asked to present an evaluation of the approaches of the mothers of both, the baby seagull and Amanda, towards helping their children. Write this presentation draft including your insights, in about 120 words, comparing the approaches of both parents. You may begin this way: One acknowledges that both parents, Amanda's mother and the baby seagull's mother both.... However, ... (Reference -Amanda! & His First Flight)",
           "summary": "mothers, baby seagull, Amanda, approaches, helping children",
-          "marks": 6
+          "marks": 6,
+          "chapter": "His First Flight"
         },
         {
           "text": "You have been chosen to address a student gathering from the neighbourhood schools, to speak on the resilience of human spirit required to transcend discrimination. Prepare the speech draft in not more than 120 words, with reference to the commonality of themes in Nelson Mandela: Long Walk to Freedom and The Trees by Adrienne Rich. You may begin this way: Good morning, everyone. Today, I'd like to discuss two pieces of literature that offer a powerful insight into the resilience of the human spirit required to transcend discrimination. You may end this way. To conclude, I'd like to say that ... Thank you",
           "summary": "resilience, human spirit, transcend discrimination, Nelson Mandela, The Trees, Adrienne Rich",
-          "marks": 6
+          "marks": 6,
+          "chapter": "Nelson Mandela: Long Walk to Freedom"
         }
       ]
     },
@@ -774,12 +882,14 @@
         {
           "text": "Imagine that M. Loisel, from The Necklace by Guy de Maupassant, writes a diary entry, exploring the theme of class and social status, and the nature of social mobility, in the context of his own experience. Write this diary entry, as M. Loisel, in about 120 words.",
           "summary": "M. Loisel, The Necklace, diary entry, class, social status, social mobility",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Necklace"
         },
         {
           "text": "A character arc is the transformation or development of a character throughout a story and refers to the changes a character undergoes as a result of their experiences, challenges, and interactions with other characters. In the light of the above information, trace the character arc of the thief in Ruskin Bond's The Thief's Story, in about 120 words.",
           "summary": "character arc, thief, Ruskin Bond, The Thief's Story",
-          "marks": 6
+          "marks": 6,
+          "chapter": "The Thief's Story"
         }
       ]
     }
