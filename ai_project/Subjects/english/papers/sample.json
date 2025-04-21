@@ -1,0 +1,82 @@
+[
+  {
+    "question": "define ohm’s law.",
+    "subject": "science",
+    "chapter": "electricity",
+    "year": 2023,
+    "marks": 1,
+    "question_type": "very short answer",
+    "is_repeated": true,
+    "asked_in_years": [2021, 2023],
+    "solution": "ohm's law states that v = ir, where v is voltage, i is current and r is resistance.",
+    "board": "cbse",
+    "keywords": ["ohm's law", "electricity"]
+  },
+  {
+    "question": "find the value of k if the quadratic equation has equal roots.",
+    "subject": "mathematics",
+    "chapter": "quadratic equations",
+    "year": 2022,
+    "marks": 2,
+    "question_type": "short answer",
+    "is_repeated": false,
+    "asked_in_years": [2022],
+    "solution": "use the condition b² - 4ac = 0 to find the value of k.",
+    "board": "cbse",
+    "keywords": ["discriminant", "equal roots"]
+  },
+  {
+    "question": "explain the significance of the salt march.",
+    "subject": "social science",
+    "chapter": "nationalism in india",
+    "year": 2020,
+    "marks": 3,
+    "question_type": "short answer",
+    "is_repeated": true,
+    "asked_in_years": [2018, 2020],
+    "solution": "the salt march was a major non-violent protest led by gandhi against the british salt tax.",
+    "board": "cbse",
+    "keywords": ["salt march", "gandhi", "civil disobedience"]
+  },
+  {
+    "question": "write the summary of the poem 'a tiger in the zoo'.",
+    "subject": "english",
+    "chapter": "a tiger in the zoo",
+    "year": 2021,
+    "marks": 4,
+    "question_type": "long answer",
+    "is_repeated": false,
+    "asked_in_years": [2021],
+    "solution": "the poem contrasts a tiger in the wild with one in captivity, highlighting the loss of freedom.",
+    "board": "cbse",
+    "keywords": ["cage", "freedom", "wild", "nature vs. captivity", "helplessness", "tiger"]
+  },
+  {
+    "question": "why was lencho sad.",
+    "subject": "english",
+    "chapter": "a letter to god",
+    "year": 2021,
+    "marks": 4,
+    "question_type": "long answer",
+    "is_repeated": false,
+    "asked_in_years": [2021],
+    "solution": "because he was",
+    "board": "cbse",
+    "keywords": ["lencho", "hailstorm", "faith", "postmaster", "letter", "irony", "god", "hope", "harvest"]
+
+  },
+  {
+    "question": "why was lencho an ox of a man.",
+    "subject": "english",
+    "chapter": "a letter to god",
+    "year": 2021,
+    "marks": 4,
+    "question_type": "long answer",
+    "is_repeated": false,
+    "asked_in_years": [2021],
+    "solution": "lencho was weird",
+    "board": "cbse",
+    "keywords": ["lencho", "hailstorm", "faith", "postmaster", "letter", "irony", "god", "hope", "harvest"]
+
+  }
+]
